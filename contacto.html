@@ -2,10 +2,22 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Contaco - Salvando Patitas LHM</title>
+        <meta name="viewport" content="wirdth=device wirdth, inicial scale-1.0">
+        <title>Contacto - Salvando Patitas LHM</title>
     </head>
     <body>
         <header>
+            <img src="logo.jpg" alt="logo" width="100" height="100"/>
+            <h1>SALVANDO PATITAS LHM</h1>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Sobre nosotros</a></li>
+                    <li><a href="contacto.html">Contactanos</a></li>
+                    <li><a href="programa.html">Programa</a></li>
+                    <br>
+                </ul>
+            </nav>               
         </header>
         <main>
             <h2>¡Contactanos!</h2>
@@ -15,9 +27,17 @@
                 <input type="text" id="nombre" name="nombre" required>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
+                <label for="programa">Programa</label>
+                <select id="programa" name="programa">
+                    <option value="">Elegí programa</option>
+                    <option value="ar">Adopción Responsable</option>
+                    <option value="rht">Red de Hogares de Tránsito</option>
+                    <option value="cc">Campaña de castración</option>
+                    <option value="ajl">Acciones Judiciales y Legislativas</option>
+                </select>
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
-                <button type="submit" formaction="mailto:contacto@salvandopatitas.com">Enviar</button>
+                <button type="submit" formaction="mailto:info@salvandopatitas.com">Enviar</button>
             </form>
         </main>
         <aside>
@@ -26,9 +46,7 @@
                 <dt>Teléfono</dt>
                     <dd><a href="tel:1156341278">11 5634-1278</a></dd>
                 <dt>En persona</dt>
-                    <dd>Avenida Santa Fe 6000, Buenos Aires, Argentina</dd>
-                <dt>Twitter</dt>
-                    <dd><a href="https://x.com/SalvandoPatitasLHM">@SalvandoPatitasLHM</a></dd>
+                    <dd>Av. Santa Fe 6000, Buenos Aires, Argentina</dd>
                 <dt>Instagram</dt>
                     <dd><a href="https://www.instagram.com/SalvandoPatitasLHM">@SalvandoPatitasLHM</a></dd>
             </dl>
